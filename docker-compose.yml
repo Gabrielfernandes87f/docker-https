@@ -63,7 +63,7 @@ services:
     phpmyadmin:
       image: phpmyadmin/phpmyadmin
       build: ./phpmyadmin
-       links: 
+       links:
             - db:db
       environment:
         - PMA_ARBITRARY=1
